@@ -1,0 +1,167 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color:#f8f9fa;
+}
+
+/* Header */
+header{
+    width:100%;
+    font-family:"Basis Grotesque Pro", Arial, sans-serif;
+    height:80px;
+    padding:15px 30px;
+    border-bottom:1px solid rgb(226,226,231);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+#title{
+    font-size:43px;
+    color:orange;
+    font-weight:bold;
+}
+
+#sidebar{
+    font-style:italic;
+    font-size:19px;
+    color:#555;
+}
+
+/* Hero Section */
+.super{
+    width:100%;
+    height:300px;
+    background:linear-gradient(0deg,rgb(201,188,244) 0%,white 95%);
+    border-radius:0 0 20px 20px;
+}
+
+.masterContent{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+}
+
+.head{
+    margin-top:70px;
+}
+
+.MasterHeading{
+    font-size:48px;
+    color:rgba(2,6,12,0.75);
+    font-weight:800;
+}
+
+.masterImage img{
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Section Headings */
+.top,.oh,.a5{
+    font-size:28px;
+    color:#2c3e50;
+    margin-left:20px;
+    margin-top:30px;
+}
+
+/* Cards Section */
+.cont{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+#a,#b,#c,#d{
+    background:white;
+    border-radius:15px;
+    padding:10px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+#a:hover,#b:hover,#c:hover,#d:hover{
+    transform:translateY(-8px);
+}
+
+.cont img{
+    border-radius:12px;
+}
+
+.b1 p{
+    text-align:center;
+    font-size:18px;
+}
+
+.b1 a{
+    text-decoration:none;
+    color:#ff6600;
+    font-weight:bold;
+}
+
+/* Ranking List */
+ol{
+    margin-left:40px;
+    font-size:20px;
+}
+
+li{
+    padding:8px;
+}
+
+/* Paragraph */
+.party{
+    font-family:cursive;
+    padding:15px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Table */
+.tab{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#ff9800;
+    color:white;
+}
+
+th,td{
+    padding:12px;
+    border:1px solid #000;
+    text-align:center;
+}
+
+tr:hover{
+    background-color:rgb(118,162,243);
+    color:white;
+}
+
+/* Footer */
+footer{
+    background:black;
+    color:aliceblue;
+    height:60px;
+    margin-top:30px;
+    border-radius:16px 16px 0 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.last{
+    font-family:cursive;
+    font-size:18px;
+} 
